@@ -3,10 +3,11 @@
   --darkgrey: #252020;
   --dark-grey-text: #353535;
   --blue: #3f6eb5;
-  --bggrey: rgb(225, 225, 225);
+  --bggrey: #e9e9e9;
 }
 html {
-  /* color: var(--dark-grey-text); */
+  background-color: white;
+  color: var(--dark-grey-text);
   font-family: "Sulphur Point", sans-serif;
 }
 * {
@@ -72,7 +73,7 @@ header {
 .slider .slider-comment {
   position: absolute;
   width: 30%;
-  top: calc((100% - 15vh) / 2);
+  top: calc((100% - 50%) / 2);
   color: white;
 }
 .slider .slider-comment h1 {
