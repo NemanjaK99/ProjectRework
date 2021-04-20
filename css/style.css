@@ -22,7 +22,7 @@ html {
 header {
   height: 70px;
   width: 100%;
-  border-top: 7px solid var(--green);
+  border-top: 5px solid var(--green);
   padding: 0 calc((100% - 1150px) / 2);
   display: flex;
 }
@@ -141,6 +141,7 @@ header {
 }
 .top-offers .top-offer-item .offer-name {
   margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 .top-offers .top-offer-item .offer-description {
   margin-bottom: 55px;
@@ -154,15 +155,43 @@ header {
 }
 .signup .signup-description {
   width: 50%;
-  padding-top: 20px;
+  margin-top: 15px;
+}
+.signup .signup-description-wrap {
+  padding: 10px;
 }
 .signup .signup-description h1 {
   font-size: 30px;
 }
-.signup .signup-description .signup-description-text {
-  padding: 10px;
-  margin-top: 20px;
-  margin-left: 30px;
+.signup .signup-description .signup-description-wrap .signup-description-item {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 20px 0 0;
+}
+.signup
+  .signup-description
+  .signup-description-wrap
+  .signup-description-item
+  .signup-description-text
+  h2 {
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+.signup .signup-description .signup-description-icon {
+  margin: 15px 20px 0 0;
+  background-color: var(--green);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.signup .signup-description .signup-description-icon i {
+  font-size: 20px;
+  padding: 15px;
+}
+.signup .signup-description .signup-description-icon i:hover {
+  background-color: white;
+  color: var(--green);
 }
 .signup .signup-form {
   width: 50%;
@@ -188,6 +217,9 @@ header {
   margin-top: 30px;
   color: grey;
   font-size: 14px;
+}
+.signup .signup-form .signup-form-items label {
+  letter-spacing: 1px;
 }
 .signup .signup-form .signup-form-items input {
   width: 100%;
@@ -220,6 +252,7 @@ header {
   background-color: var(--green);
   color: white;
 }
+/* SIGNUP END STYLE */
 
 /* TEACHERS STYLE */
 .teachers {
