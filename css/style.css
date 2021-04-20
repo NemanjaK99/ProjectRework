@@ -156,8 +156,11 @@ header {
   width: 50%;
   padding-top: 20px;
 }
+.signup .signup-description h1 {
+  font-size: 30px;
+}
 .signup .signup-description .signup-description-text {
-  /* padding: 20px 0 20px 20px; */
+  padding: 15px;
 }
 .signup .signup-form {
   width: 50%;
@@ -175,6 +178,9 @@ header {
   align-items: center;
   flex-direction: column;
   border-radius: 50%;
+}
+.signup .signup-form .signup-form-items .signup-form-heading {
+  letter-spacing: 2px;
 }
 .signup .signup-form .signup-form-items form {
   margin-top: 30px;
@@ -207,8 +213,8 @@ header {
   padding: 15px;
   margin-top: 20px;
   border-radius: 50px;
-  width: 150px;
-  height: 50px;
+  width: 140px;
+  height: 45px;
   cursor: pointer;
 }
 .signup-btn button:hover {
