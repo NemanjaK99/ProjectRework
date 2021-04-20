@@ -160,7 +160,9 @@ header {
   font-size: 30px;
 }
 .signup .signup-description .signup-description-text {
-  padding: 15px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 .signup .signup-form {
   width: 50%;
