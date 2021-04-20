@@ -202,10 +202,7 @@ header {
 }
 .signup .signup-form .signup-form-items input:focus {
   outline: none;
-  border-bottom: 1px solid var(--green);
-}
-.signup .signup-form .signup-form-items input:active {
-  border-bottom: 1px solid var(--green);
+  border-bottom: 2px solid var(--green);
 }
 .signup-btn button {
   border: none;
