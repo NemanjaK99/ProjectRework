@@ -1,13 +1,13 @@
 :root {
   --green: #29ca8e;
   --darkgrey: #252020;
-  --dark-grey-text: #353535;
+  --dark-grey-text: #434242;
   --blue: #3f6eb5;
   --bggrey: #e9e9e9;
 }
 html {
   background-color: white;
-  color: var(--dark-grey-text);
+  color: var(--darkgrey);
   font-family: "Sulphur Point", sans-serif;
 }
 * {
@@ -258,4 +258,44 @@ header {
 /* TEACHERS STYLE */
 .teachers {
   background-color: var(--bggrey);
+}
+.teachers .teachers-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px;
+  letter-spacing: 1px;
+}
+.teachers .teachers-heading h3 {
+  color: var(--dark-grey-text);
+}
+.teachers .wrapper {
+  display: flex;
+}
+.teachers .teacher {
+  width: calc(100% / 4);
+}
+.teachers .teacher .teacher-image img {
+  height: 280px;
+  width: 260px;
+  filter: brightness(95%);
+}
+.teachers .teacher .teacher-bio {
+  background-color: white;
+  width: 260px;
+  margin-top: -10px;
+  padding: 20px;
+}
+.teachers .teacher .teacher-socialmedia {
+  height: 50px;
+  width: 260px;
+  border-top: 2px solid var(--bggrey);
+  background-color: white;
+  margin-bottom: 90px;
+  padding: 5px;
+}
+.teachers .teacher .teacher-socialmedia i {
+  font-size: 14px;
+  padding: 10px;
 }
