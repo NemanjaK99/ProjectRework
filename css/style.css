@@ -258,6 +258,7 @@ header {
 /* TEACHERS STYLE */
 .teachers {
   background-color: var(--bggrey);
+  width: 100%;
 }
 .teachers .teachers-heading {
   display: flex;
@@ -298,4 +299,111 @@ header {
 .teachers .teacher .teacher-socialmedia i {
   font-size: 14px;
   padding: 10px;
+}
+
+/*TEACHER STYLE END  */
+
+/* COURSES STYLE */
+
+.courses .courses-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px;
+  letter-spacing: 1px;
+}
+.courses .courses-heading h3 {
+  color: var(--dark-grey-text);
+}
+.courses .wrapper {
+  display: flex;
+}
+.courses .course {
+  width: calc(100% / 3);
+}
+.courses .course .course-image img {
+  width: 360px;
+  filter: brightness(70%);
+}
+.courses .course .course-image span {
+  position: relative;
+  bottom: 45px;
+  color: white;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+.courses .course .course-image span i {
+  margin-right: 5px;
+}
+.courses .course .course-info h3 {
+  letter-spacing: 1px;
+}
+.courses .course .course-info {
+  width: 360px;
+  height: 120px;
+  margin-top: -30px;
+  background-color: var(--bggrey);
+  padding: 20px;
+}
+.courses .course .course-teacher {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 70px;
+  background-color: var(--bggrey);
+  border-top: 1px solid rgb(211, 211, 211);
+}
+.courses .course .course-teacher .course-teacher-name {
+  width: 200px;
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+.courses .course .course-teacher .teacher-price-wrap {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.courses .course .course-teacher .course-teacher-price button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 20px;
+  color: white;
+  background-color: var(--blue);
+  font-weight: 600;
+}
+.courses .course .course-teacher .course-teacher-price button:hover {
+  background-color: #598fe1;
+}
+.courses .course .course-teacher .course-teacher-price-free button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 20px;
+  color: white;
+  background-color: var(--green);
+  font-weight: 600;
+}
+.courses .course .course-teacher .course-teacher-price-free button:hover {
+  background-color: #26af7d;
+}
+.courses .course .course-teacher .course-teacher-photo {
+  padding: 7px;
+  margin-left: 10px;
+}
+.courses .course .course-teacher .course-teacher-photo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
