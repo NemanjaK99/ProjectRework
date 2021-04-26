@@ -60,7 +60,7 @@ header {
 
 /* SLIDER STYLE */
 .slider {
-  height: 67vh;
+  height: 75vh;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -72,9 +72,9 @@ header {
 }
 .slider .slider-comment {
   position: absolute;
-  width: 30%;
+  width: 31%;
   top: calc((100% - 50%) / 2);
-  color: white;
+  color: var(--dark-grey-text);
 }
 .slider .slider-comment h1 {
   width: 100%;
@@ -91,18 +91,40 @@ header {
 .slider .slider-comment .slider-btn button {
   font-size: 17px;
   font-weight: 700;
-  border: 2px solid var(--bggrey);
+  border: 2px solid var(--dark-grey-text);
   border-radius: 50px;
   width: 150px;
   height: 50px;
   cursor: pointer;
   background-color: transparent;
   background-repeat: no-repeat;
-  color: var(--bggrey);
+  color: var(--dark-grey-text);
 }
 .slider .slider-comment .slider-btn button:hover {
   border: 3px solid var(--green);
   color: var(--green);
+}
+.slider .slider-arrow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider .slider-arrow button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  font-size: 42px;
+  color: var(--blue);
+}
+.slider .slider-arrow .left {
+  margin-left: 30px;
+}
+.slider .slider-arrow .right {
+  margin-right: 30px;
 }
 @keyframes sliderStart {
   0% {
