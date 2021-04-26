@@ -75,6 +75,7 @@ header {
   width: 31%;
   top: calc((100% - 50%) / 2);
   color: var(--dark-grey-text);
+  z-index: 2;
 }
 .slider .slider-comment h1 {
   width: 100%;
